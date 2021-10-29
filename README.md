@@ -1,12 +1,10 @@
 # Question Answering❓
 
-Fine-Tuning BERT (bert-base-uncased) for contextual Question Answering that involves answering a question on a passage by predicting a start and an end position in the passage that answers the question.  
-
-**Dataset:** [SQuAD 2.0](https://rajpurkar.github.io/SQuAD-explorer/)
+Fine-Tuning BERT for contextual Question Answering. That is, given a context (passage) to the model, it predicts a start and an end position in the passage that answers the particular question. More specifically, I fine-tune the `bert-base-uncased` model on the [Stanford Question Answering Dataset (SQuAD) 2.0](https://rajpurkar.github.io/SQuAD-explorer/).
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WxGxCFE_1cESJ02baaBY-HBHmGjSlxJx?usp=sharing) 
 
-Example questions and answers from running the fine-tuned BERT on a passage about Athens.
+An example of question answering on a passage about Athens.
 
 > **Context:** Athens is the capital and largest city of Greece. Athens dominates the Attica region and is one of the world's oldest cities, 
              with its recorded history spanning over 3,400 years and its earliest human presence starting somewhere between the 11th and 7th millennium BC.
