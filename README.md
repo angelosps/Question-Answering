@@ -1,6 +1,6 @@
 # Question Answering❓
 
-Fine-Tuning BERT for contextual Question Answering. That is, given a context (passage) to the model, it predicts a start and an end position in the passage that answers the particular question. More specifically, I fine-tune the `bert-base-uncased` model on the [Stanford Question Answering Dataset (SQuAD) 2.0](https://rajpurkar.github.io/SQuAD-explorer/).
+Fine-Tuning BERT for contextual Question Answering. That is, given a context (passage) in the model, it predicts a start and an end position in the passage that answers the particular question. More specifically, I fine-tune the `bert-base-uncased` model on the [Stanford Question Answering Dataset (SQuAD) 2.0](https://rajpurkar.github.io/SQuAD-explorer/).
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WxGxCFE_1cESJ02baaBY-HBHmGjSlxJx?usp=sharing) 
 
